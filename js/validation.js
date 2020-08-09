@@ -1,5 +1,6 @@
 function emailValidation(event){
-    digitEmail = getElementById("email").value
+    digitEmail = $("#emailvalido").val()
+    console.log(digitEmail)
     if (digitEmail == "teste@email.com"){
         console.log("e-mail valido")
     }
@@ -8,13 +9,15 @@ function emailValidation(event){
     }
 }
 function passwordValidation(event){
-    digitPassword = document.getElementById("senha").value
-    if (digitPassword == "12345"){
+    caixaTermo = document.getElementById("caixa").checked
+    digitPassword = $("#senha").val()
+    if (digitPassword == "12345"&caixaTermo == true){
         console.log("chamou outra pagina")
         location.replace("/DashBoard.html");
 
     }
     else{
-        alert("Senha incorreta!")
+        alert("Senha incorreta ou marque a caixa de termo!")
     }
+
 }
