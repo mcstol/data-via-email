@@ -1,0 +1,28 @@
+body{
+    margin-top: 25%;
+    background-color: #154ee9;
+}
+img.logo{
+    width: 72px;
+    height: 72px;
+    margin: 20px;
+}
+#termo{
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+#caixa{
+margin: 5px;
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: #586a99;
+    border: none;
+}
+div p{
+    padding-top: 12px;
+}
+a{
+    color: #ffffff;
+    margin: 0PX;
+}

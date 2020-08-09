@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Tratamento Dados</title>
+</head>
+<body class="text-center">
+    <img class="logo" src="/_images/logo.svg" alt="logo da empresa">
+    <form class="">
+       
+        <div class="">
+        </div>
+        <input id="email" onblur="emailValidation(event)" type="email" id="" placeholder="email"/>
+        <div>
+            <input type="password" id="senha" placeholder="Password">
+        </div>
+        <div>
+            <input type="checkbox" id="caixa"><label id="termo" for="caixa" class="">termos de uso</label>
+            <p><button onclick="passwordValidation(event)" class="btn btn-primary" type="button" >Login</button></p>
+        </div>
+        <a href="/firstAccess.html">Primeiro login!</a>
+    </form>
+    <script src="js/validation.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
