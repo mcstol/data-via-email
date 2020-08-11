@@ -1,4 +1,4 @@
-body{
+body.text-center{
     margin-top: 200px;
     background-color: #154ee9;
 }
@@ -14,11 +14,11 @@ img.logo{
 #caixa{
 margin: 5px;
 }
-.btn-primary{
+/*.btn-primary{
     color: #ffffff;
     background-color: #586a99;
     border: none;
-}
+}*/
 div p{
     padding-top: 12px;
 }
